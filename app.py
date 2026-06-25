@@ -279,10 +279,8 @@ if spectrum_matrix.size > 0:
         ),
         lightposition=dict(x=100, y=200, z=150),
         colorbar=dict(
-            title="Strength",
-            titleside="top",
+            title=dict(text="Strength", side="top"),
             tickcolor="#e2e8f0",
-            titlefont=dict(color="#e2e8f0", size=12),
             tickfont=dict(color="#94a3b8", size=10)
         )
     )])
